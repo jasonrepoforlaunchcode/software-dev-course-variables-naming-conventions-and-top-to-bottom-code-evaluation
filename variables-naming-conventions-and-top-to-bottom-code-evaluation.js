@@ -24,9 +24,12 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let userName = "Alice";
+let numberOfItemsBought = 5;
+let totalCost = 20;
+let taxRate = 0.06;
+let taxPaid = totalCost * taxRate
 
-console.log(d);
+let summationMessage = userName + " bought " + numberOfItemsBought + " items for $" + totalCost + ", and paid $" + taxPaid + " in taxes.";
+
+console.log(summationMessage);
